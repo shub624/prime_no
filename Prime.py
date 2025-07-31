@@ -2,9 +2,7 @@
 
 num = int(input("Enter a number: "))
 
-# A prime number is greater than 1
 if num > 1:
-    # Check for factors
     for i in range(2, int(num**0.5) + 1):
         if num % i == 0:
             print(num, "is not a prime number")
